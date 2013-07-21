@@ -470,5 +470,8 @@
 
 <!-- Add bash shell -->
   <project name="android_external_bash" path="external/bash" remote="cm" revision="cm-10.1" />
+  
+<!-- Add CM File Manager -->
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
 
 </manifest>
