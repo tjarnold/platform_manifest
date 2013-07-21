@@ -1,12 +1,56 @@
-This has been modified from the Root-Box platform_manifest
+This manifest is a modified version from Root-Box.  
 
-Get Repo
+I would like to thank the following individuals for their help both directly and indirectly in making it posible for me to build root-box from source.
+
+mikeshepard
+jrior
+kushdeck
+bajee11
+jamieg71
+sylentprofet
+dragonstalker
+
+To start off with, you need to have Ubuntu 13.04, 64-bit installed.  This should work with 12.04+, but I have 13.04 and know that works.  32-bit versions will NOT work.
+
+These commands are all done in terminal.  Make sure you use the commands exactly as tehy are writen.
+
+Next you need to install the correct version of Java by first removing other versions that should not be used.
+    sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
+Now add a self-updating repository.
+    sudo add-apt-repository ppa:webupd8team/java
+Install Java 6 
+    sudo apt-get update && sudo apt-get install oracle-java6-installer
+    
+Just in case you still have another version of Java, we need to make sure your system will use the correct version.
+    sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_35/jre/bin/java 1
+    sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_35/bin/javac 1
+    sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk1.6.0_35/bin/jar 1
+    sudo update-alternatives --install /usr/bin/javadoc javadoc /usr/lib/jvm/jdk1.6.0_35/bin/javadoc 1
+Now run the following and ensure that jdk1.6.0_xx is selected for each.
+    sudo update-alternatives --config java
+    sudo update-alternatives --config javac
+    sudo update-alternatives --config jar
+    sudo update-alternatives --config javadoc
+
+Now we need to install the stuff needed to build Android.  It is posible some of this stuff may fail, don't worry though, building should still work.
+    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev lib32ncurses5-dev ia32-libs x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z-dev libgl1-mesa-glx:i386 libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc readline-common libreadline6-dev libreadline6 lib32readline-gplv2-dev libncurses5-dev lib32readline5 lib32readline6 libreadline-dev libreadline6-dev:i386 libreadline6:i386 bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool libwxgtk2.8-dev python
+    sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
+
+Now tell your computer how to "repo"
     mkdir ~/bin
     export PATH=~/bin:$PATH
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
     chmod a+x ~/bin/repo
+    
+Create a folder for your repos.
+    mkdir ~/rootbox_jewel
+    cd ~/rootbox_jewel
 
 Sync RootBox_Jewel Sources
-
     repo init -u https://github.com/tjarnold/platform_manifest.git -b jb-mr1
     repo sync
+    
+Now its time to build.
+    . build_rootbox.sh jewel
+    
+Feel free to email me at tjarnold@seahawksystems.com or hit me up on XDA - tjarnold.
