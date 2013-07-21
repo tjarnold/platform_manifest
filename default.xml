@@ -38,7 +38,7 @@
   <!--project path="build" name="android_build" remote="rootbox" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project-->
-  <project name="jrior001/android_build" path="build" remote="gh" revision="jb-mr1" >
+  <project name="tjarnold/android_build" path="build" remote="gh" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
