@@ -35,9 +35,13 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="rootbox" revision="jb-mr1" >
+  <!--project path="build" name="android_build" remote="rootbox" revision="jb-mr1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project-->
+  <project name="jrior001/android_build" path="build" remote="gh" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
   <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb-mr1" >
     <copyfile src="build_release1.sh" dest="build_release1.sh" />
     <copyfile src="build_release2.sh" dest="build_release2.sh" />
@@ -45,6 +49,7 @@
     <copyfile src="server2.sh" dest="server2.sh" />
     <copyfile src="build_rootbox.sh" dest="build_rootbox.sh" />
   </project>
+
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="rootbox" revision="jb-mr1" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
@@ -52,7 +57,7 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="dalvik" name="dalvik" remote="rootbox" revision="jb-mr1" />
   <project path="development" name="UnicornButter/development" remote="gh" revision="jb-mr1" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="rootbox" revision="jb-mr1" />
+  <!--project path="device/asus/grouper" name="device_asus_grouper" remote="rootbox" revision="jb-mr1" /-->
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -62,10 +67,10 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="rootbox" revision="jb-mr1" />
-  <project path="device/oppo/find5" name="device_oppo_find5" remote="rootbox" revision="jb-mr1" />
+  <!--project path="device/lge/mako" name="device_lge_mako" remote="rootbox" revision="jb-mr1" />
+  <!--project path="device/oppo/find5" name="device_oppo_find5" remote="rootbox" revision="jb-mr1" /-->
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="rootbox" revision="jb-mr1" />
+  <!--project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="rootbox" revision="jb-mr1" />
@@ -99,7 +104,7 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="rootbox" revision="jb-mr1" /-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -299,7 +304,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
+  <!--project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" /-->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
@@ -315,7 +320,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
+  <!--project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="rootbox" revision="jb-mr1" />
@@ -331,7 +336,7 @@
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />	  	
   <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412" remote="rootbox" revision="jb-mr1" />	  	
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" /-->
   <project path="libcore" name="libcore" remote="rootbox" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -368,7 +373,7 @@
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="rootbox" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rootbox" revision="jb-mr1" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
+  <!--project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" /-->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -443,14 +448,26 @@
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
-  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
-  <project path="vendor/asus" name="vendor_asus" remote="rootbox" revision="jb-mr1" />
+  <!--project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" /-->
+  <project name="tjarnold/vendor_rootbox" path="vendor/rootbox" remote="gh" revision="jb-mr1" />
+  <!--project path="vendor/asus" name="vendor_asus" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" /-->
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb-mr1" />
+  <project path="platform_manifest" name="tjarnold/platform_manifest" remote="gh" revision="jb-mr1" />
+  
+<!--Jewel Device Repos -->
+  <project name="tjarnold/android_device_htc_jewel" path="device/htc/jewel" remote="gh" revision="cm-10.1" />
+  <project name="tjarnold/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="gh" revision="cm-10.1" />
+  <project name="jrior001/rootbox_s4_common" path="device/htc/s4-common" remote="gh" revision="cm-10.1" />
+  <project name="android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="cm" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="gh" revision="cm-10.1" />
+
+<!-- Add bash shell -->
+  <project name="android_external_bash" path="external/bash" remote="cm" revision="cm-10.1" />
+
 </manifest>
