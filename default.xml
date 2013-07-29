@@ -403,7 +403,7 @@
   <project path="platform_manifest" name="platform_manifest" remote="tj" revision="jb-mr1" />
   
 <!--Jewel Device Repos -->
-  <project name="android_device_htc_jewel" path="device/htc/jewel" remote="tj" revision="test" />
+  <project name="android_device_htc_jewel" path="device/htc/jewel" remote="tj" revision="cm-10.1" />
   <project name="android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="tj" revision="cm-10.1" />
   <project name="jrior001/rootbox_s4_common" path="device/htc/s4-common" remote="gh" revision="cm-10.1" />
   <project name="android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="cm" revision="cm-10.1" />
