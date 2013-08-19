@@ -278,7 +278,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
-  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="tj" revision="cm-10.1" />
+  <project path="kernel/htc/msm8960" name="jewel_3.4.49" remote="tj" revision="master" />
   <project path="libcore" name="libcore" remote="rootbox" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
