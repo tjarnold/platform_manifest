@@ -28,7 +28,7 @@
   <remote  name="tj"
 	   fetch="https://github.com/tjarnold/" />
    
-  <default revision="refs/tags/android-4.3_r2.1"
+  <default revision="refs/tags/android-4.3_r2.2"
            remote="aosp"
            sync-j="4" />
 
