@@ -53,7 +53,7 @@
   <project path="development" name="UnicornButter/development" remote="gh" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
+  <project path="device/generic/armv7-a" name="device/generic/armv7-a" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
@@ -75,7 +75,7 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/astl" name="platform/external/astl" />
+  <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="tj" revision="jb-mr1" />
@@ -86,10 +86,10 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="external_chromium" remote="rootbox" revision="jb-mr1" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
+  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
-  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dbus" name="platform/external/dbus" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="rootbox" revision="jb-mr1" />
@@ -106,7 +106,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-10.2" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/fat32lib" name="platform/external/fat32lib" />
+  <project path="external/fat32lib" name="platform/external/fat32lib" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" />
@@ -169,10 +169,10 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" />
-  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
@@ -226,7 +226,7 @@
   <project path="external/webkit" name="external_webkit" remote="rootbox" revision="jb-mr1" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.2" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="rootbox" revision="jb-mr1" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
@@ -237,8 +237,8 @@
   <project path="frameworks/av" name="frameworks_av" remote="tj" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="tj" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
+  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="frameworks/compile/mclinker" name="UnicornButter/frameworks_compile_mclinker" remote="gh" revision="jb-mr1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="gh" revision="jb-mr1" />
@@ -258,7 +258,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="UnicornButter/frameworks_wilhelm" remote="gh" revision="jb-mr1" />
-  <project path="gdk" name="platform/gdk" />
+  <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" />
@@ -391,14 +391,21 @@
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
   <project path="system/security" name="UnicornButter/system_security" remote="gh" revision="jb-mr1" />
   <project path="system/vold" name="system_vold" remote="rootbox" revision="jb-mr1" />
-  <project path="tools/build" name="platform/tools/build" />
-  <project path="tools/motodev" name="platform/tools/motodev" />
+  <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
+  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="vendor/cm" name="android_vendor_cm" remote="tj" revision="master" />
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="gh" revision="cm-10.1" />
   <project path="vendor/rootbox" name="vendor_rootbox" remote="tj" revision="jb-mr1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   <project path="platform_manifest" name="platform_manifest" remote="tj" revision="jb-mr1" />
+
+  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="rootbox" revision="jb-mr1" />
 </manifest>
