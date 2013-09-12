@@ -61,7 +61,7 @@
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="tj" revision="cm-10.1" />
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="tj" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="rootbox" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -268,11 +268,11 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="jb4.2" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="rootbox" revision="jb-mr1" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="tj" revision="jb-mr1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="rootbox" revision="jb-mr1" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="tj" revision="jb-mr1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
@@ -310,7 +310,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/RootBoxOTA" name="packages_apps_RootBoxOTA" remote="rootbox" revision="jb-mr1" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="rootbox" revision="jb-mr1" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tj" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="rootbox" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -333,7 +333,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" revision="cm-10.1" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="rootbox" revision="jb-mr1" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="tj" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="cm-10.1" />
