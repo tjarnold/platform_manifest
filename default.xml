@@ -460,8 +460,8 @@
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
   <project path="system/security" name="system_security" remote="tj" revision="jb-mr1" />   <!-- GCC4.7-->
   <project path="system/vold" name="system_vold" remote="tj" revision="jb-mr1" />
-  <project path="tools/build" name="platform/tools/build" />
-  <project path="tools/motodev" name="platform/tools/motodev" />
+  <!--project path="tools/build" name="platform/tools/build" /-->
+  <!--project path="tools/motodev" name="platform/tools/motodev" /-->
   <project path="vendor/cm" name="android_vendor_cm" remote="tj" revision="master" />
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="gh" revision="cm-10.2" />
   <project path="vendor/rootbox" name="vendor_rootbox" remote="tj" revision="jb-mr1" />
