@@ -32,7 +32,7 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" /-->
 
-  <default revision="refs/tags/android-4.2.2_r1.2"
+  <default revision="refs/tags/android-4.3_r2.2"
            remote="aosp"
            sync-j="4" />
 
