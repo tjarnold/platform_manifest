@@ -255,45 +255,57 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="external_v8" remote="tj" revision="jb-mr1" />
+  <!--project path="external/v8" name="external_v8" remote="tj" revision="jb-mr1" /-->
+  <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-
-  <project path="external/webkit" name="external_webkit" remote="tj" revision="jb-mr1" />      
+  <project path="external/webkit" name="external_webkit" remote="aokp" revision="jb-mr2" />
+  <!--project path="external/webkit" name="external_webkit" remote="tj" revision="jb-mr1" /-->      
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.1" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="tj" revision="jb-mr1" />   <!-- GCC4.7-->
-  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.1" />    
+  <!--project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.1" /-->
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.2" />
+  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />    
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.2" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.2" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="tj" revision="jb-mr1" />    <!-- GCC4.7-->
+  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr2" />
+
   <project path="frameworks/base" name="frameworks_base" remote="tj" revision="jb-mr1" />
+
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
-  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="tj" revision="jb-mr1" />   <!-- GCC4.7-->
+  <!--project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" /-->
+  <!--project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" /-->
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="frameworks_ex" remote="tj" revision="jb-mr1" /> <!-- GCC4.7-->
+  <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
+
   <project path="frameworks/native" name="frameworks_native" remote="tj" revision="jb-mr1" />
+
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="tj" revision="cm-10.1" />
+  <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard"  remote="slim" revision="jb4.3" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="tj" revision="jb-mr1" />  <!-- GCC4.7-->
-  <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="tj" revision="jb-mr1" />   <!-- GCC4.7-->
-  <project path="gdk" name="platform/gdk" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="aokp" revision="jb-mr2" />
+  <project path="frameworks/volley" name="android_frameworks_volley" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
+  <!--project path="gdk" name="platform/gdk" /-->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" />
@@ -301,41 +313,54 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="jb4.3" />
+  <!--project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="jb4.3" /-->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="tj" revision="jb-mr1" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" />
+  <!--project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" /-->
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="tj" revision="jb-mr1" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
+  <!--project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" /-->
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
+  <!--project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" /-->
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" />
-  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="tj" revision="cm-10.1" />
-  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="tj" revision="cm-10.1" />
-  <project path="libcore" name="libcore" remote="tj" revision="jb-mr1" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
+  <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth"  remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="tj" revision="jb-mr1" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb-mr2" />
+  <!--project path="packages/apps/Browser" name="packages_apps_Browser" remote="tj" revision="jb-mr1" /-->
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="jb4.3" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="tj" revision="jb-mr1" />
+  <!--project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr2" /-->
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <!--project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="tj" revision="jb-mr1" /-->
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="jb4.3" />
+  <!--project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="aokp" revision="jb-mr2" /-->
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CDMATools" name="packages_apps_CDMATools" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tj" revision="jb-mr1" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tj" revision="jb-mr1" />
+  <!--project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tj" revision="jb-mr1" /-->
+  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr2" />
+  <!--project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tj" revision="jb-mr1" /-->
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Email" name="packages_apps_Email" remote="tj" revision="jb-mr1" />
+  <!--project path="packages/apps/Email" name="packages_apps_Email" remote="tj" revision="jb-mr1" /-->
+  <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tj" revision="jb-mr1" />
+  <!--project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tj" revision="jb-mr1" /-->
+  <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -344,6 +369,8 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
+
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tj" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="tj" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr2" />
@@ -395,20 +422,20 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
+  <!--project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" /-->
+  <!--project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" /-->
+  <!--project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" revision="master" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" revision="master" /-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
+  <!--project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" /-->
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
+  <!--project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" /-->
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" /> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" /-->
